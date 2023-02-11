@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input de Seleccion</title>
+</head>
+<!-- 
+
+    radio : Unica selección de lista relacionada
+    checkbox : permite seleccionar varias opciones de una lista de opciones
+    select : crea una listta de opciones donde podemos seleccionar una o varias opciones
+        cada opcion ira dentro de la etiqueta <option></option>
+-->
+<body>
+    <h1>Elementos Seleccionables</h1>
+    <article>
+        <h2>Uso de Input type radio</h2>
+        <form>
+            <!-- name igual para seleccionar  -->
+            <label>Masculino
+                <input type="radio" name="genero" value="masculino">
+            </label>
+            <label>Femenino
+                <input type="radio" name="genero" value="Femenino">
+            </label>
+            <label>Privado
+                <input type="radio" name="genero" value="Privado" checked>
+            </label>
+            
+        </form>
+    </article>
+
+    <article>
+        <h2>Uso de checkbox</h2>
+        <p>Lenguajes que conoces</p>
+        <form>
+            <label>Html
+                <input type="checkbox" name="lenguajesProgramacion" value="Html">
+            </label>
+            <label>CSS
+                <input type="checkbox" name="lenguajesProgramacion" value="CSS">
+            </label>
+            <label>JavaScript
+                <input type="checkbox" name="lenguajesProgramacion" value="JavaScript">
+            </label>
+            <label>Python
+                <input type="checkbox" name="lenguajesProgramacion" value="Python">
+            </label><label>C++
+                <input type="checkbox" name="lenguajesProgramacion" value="C++">
+            </label>
+            <label>Visual Basic 6.0
+                <input type="checkbox" name="lenguajesProgramacion" value="Visual Basic 6.0">
+            </label>
+            <label>Java
+                <input type="checkbox" name="lenguajesProgramacion" value="Java">
+            </label>
+        </form>
+    </article>
+
+</body>
+</html>

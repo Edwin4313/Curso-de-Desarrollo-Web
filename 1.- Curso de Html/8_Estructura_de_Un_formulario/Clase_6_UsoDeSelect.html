@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de select</title>
+</head>
+<!-- 
+    select : crea una listta de opciones donde podemos seleccionar una o varias opciones
+        cada opcion ira dentro de la etiqueta <option></option>
+ -->
+<body>
+    <h1>Uso de Select</h1>
+    <form>
+        <select name="lenguajes">
+            <option value="html">Html</option>
+            <option value="CSS">CSS</option>
+            <option value="Python">Python</option>
+        </select>
+    </form>
+    <hr>
+    <form>
+        <label>
+            Uso de Select
+        </label>
+        <select name="mascotas">
+            <optgroup label="4 Patas">
+                <option value="perro">Perro</option>
+                <option value="Gato">Gato</option>
+                <option value="hamster">Hamster</option>
+                <option value="canario">Canario</option>
+                <option value="conejo">Conejo</option>
+            </optgroup>
+            <optgroup label="aves">
+                <option value="loro">Loro</option>
+                <option value="pato">Pato</option>
+            </optgroup>
+            <optgroup label="Reptiles">
+                <option value="serpiente">Serpiente</option>
+                <option value="camaleon">Camaleon</option>
+                <option value="iguana">Iguana</option>
+            </optgroup>
+        </select>
+    </form>
+
+</body>
+</html>
