@@ -7,14 +7,40 @@
     <title>Clase 3 Selección de Columnas</title>
     
     <style>
-        /*  
-        td{
-            background-color: steelblue;
+        table{
+            font-family: sans-serif;
+            border: 2px solid grey;
+            border-collapse: collapse;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
         }
-        */
-        col{
-            background-color: yellowgreen;
+
+        caption{
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
         }
+
+        th,
+        td {
+            border: 2px solid grey;
+            padding: .5rem;
+        }
+
+        tr:nth-child(4) td:nth-child(2){
+            border-color: lightgreen;
+            letter-spacing: 90px;
+            padding-left: 50px;
+            text-transform: uppercase;
+        }
+
+        td:first-child,
+        th,
+        tfoot{
+            background-color: lightgreen;
+        }
+
     </style>
 </head>
 <body>
@@ -22,7 +48,8 @@
     <table>
         <caption>HORARIO DE CLASES</caption>
         <colgroup>
-            <col>
+            <col> <!-- equivale a la primera columna -->
+            <col> <!-- equivale a la segunda columna -->
         </colgroup>
         <!-- Dias de clases -->
         <thead>
