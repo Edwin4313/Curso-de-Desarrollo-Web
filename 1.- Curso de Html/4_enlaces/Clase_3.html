@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos Rutas absolutas y relativas</title>
+</head>
+<body>
+    <h1>Home rutas absolutas y relativas</h1>
+    <article>
+        <header>
+            <h2>Ruta relativas</h2>
+            <a href="https://www.google.com/" target="_blank">Ir a Google</a>
+            <footer>
+                <p>ruta absoluta fuera de nuestro proyecto</p>
+            </footer>
+        </header>
+    </article>
+
+    <article>
+        <header>
+            <h2>Ruta relativa(misma carpeta)</h2>
+            <a href="Pratica.html">Ir a Contacto</a>
+            <footer>
+                <p>solo se usa el nombre ejemplo: index.html</p>
+            </footer>
+        </header>
+    </article>
+
+    <article>
+        <header>
+            <h2>Ruta relativa (fuera de la carpeta)</h2>
+        </header>
+        <a href="/1.- Curso de Html/4_enlaces/Paginas/index.html">Ir a index</a>
+    </article>
+
+    <article>
+        <header>
+            <h2>Atributo Download</h2>
+        </header>
+        <a href="/1.- Curso de Html/4_enlaces/Paginas/index.html" download>Descarga Aqui el recurso del link</a>
+    </article>
+
+    <article>
+        <header>
+            <h2>Descargar archivo del Servidor</h2>
+        </header>
+        <a href="/1.- Curso de Html/4_enlaces/assets/images/20221228_093112.jpg" download>Descargar Imagen</a>
+        <footer>
+            <p><aside>Se espera descargar la imgane(si se puede siempre que se encuentre en el Servidor)</aside></p>
+        </footer>
+    </article>
+
+    <article>
+        <header>
+            <h2>
+                Descargar el archivo fuera del Servidor
+            </h2>
+        </header>
+
+        <a href="https://www.mundogatos.com/Uploads/mundogatos.com/ImagenesGrandes/fotos-de-gatitos-6.jpg" download target="_blank">Descargar Imagen </a>
+
+        <footer>
+            <p>
+                <aside>
+                    Se espera que no descargue la imagen sino nos lleve a la pagina
+                </aside>
+            </p>
+        </footer>
+    </article>
+</body>
+</html>
