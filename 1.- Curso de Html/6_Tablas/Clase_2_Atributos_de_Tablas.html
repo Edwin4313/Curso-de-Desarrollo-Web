@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <style>
+        td{
+            background-color: steelblue;
+        }
+    </style>
 </head>
 <body>
     <h1>Tabla</h1>
@@ -48,11 +54,12 @@
                 <td>Ciencias</td>
                 <td>Lengua</td>
                 <td>Educación Fisica</td>
+                <td>Programación</td>
             </tr>
 
             <tr>
                 <td>11:20 - 11:45</td>
-                <td>Recreo</td>
+                <td colspan="5">Recreo</td>
             </tr>
 
             <tr>
@@ -66,26 +73,26 @@
 
             <tr>
                 <td>12:40 - 13:35</td>
-                <td>Música</td>
+                <td rowspan="2">Tecnologia</td>
                 <td>Educación Fisica</td>
                 <td>Plástica</td>
                 <td>Religión</td>
-                <td>Música</td>
+                <td rowspan="2">Tecnologia</td>
             </tr>
 
             <tr>
                 <td>13:35 - 14:30</td>
-                <td>Tecnologia</td>
+                <!-- Asignattura eliminada por ocupar 2 espacios -->
                 <td>Francés</td>
                 <td>Tecnologia</td>
                 <td>Francés</td>
-                <td>Tecnologia</td>
+                <!-- Asignattura eliminada por ocupar 2 espacios -->
             </tr>
         </tbody>
         <tfoot>
             <!-- Pie de tabla si es opcional -->
             <tr>
-                <td>Totatal de Asignaturas</td>
+                <td colspan="5">Totatal de Asignaturas</td>
                 <td>12</td>
             </tr>
         </tfoot>
