@@ -8,7 +8,7 @@
 
 * Imágenes se clasifica en 2 tipos:
 * Vectoriales
-    * svg(recomendado siempre que se pueda)
+    * svg(recomendado siempre que se pueda) no añaden peso a la web
 * Mapa de bits
     * jpg
     * png 8 y 24 (si necesitas transparencia)
