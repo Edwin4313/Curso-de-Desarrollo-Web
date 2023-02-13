@@ -1,0 +1,18 @@
+/* otros Atributos */
+
+
+[href]{
+    background-color: blue;
+}
+
+[href="https://www.google.com/"]{
+    background-color: rebeccapurple;
+}
+
+[href^=color]{
+    background-color: greenyellow;
+}
+
+[lang|="en"]{
+    background-color: peru;
+}
