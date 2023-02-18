@@ -1,0 +1,20 @@
+/* Selecotores combinadores */
+
+/* selector descendiente
+    solo pinta dentro de div
+
+*/
+
+div .title-2{
+    background-color: teal;
+}
+/* Selector de hermano siguiene */
+.text-2 + .title-2{
+    background-color: thistle;
+}
+
+/* Selector de hermanos siguiente ~ */
+
+.text-2 ~ p{
+    background-color: teal;
+}

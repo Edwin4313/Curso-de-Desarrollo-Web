@@ -1,0 +1,36 @@
+/* ¿CÓMO FUNCIONA CSS?
+    Especificidad -> Establece cómo de específico es un
+    selector para saber qué estilo aplicar.
+    EL cálculo se realiza con La siguiente fórmula:
+   Cascada
+   Herencia
+*/
+/* usar siempre clases */
+/* .title {
+    background-color: teal;
+} */
+
+/* herencia en css */
+body{
+    background-color: #272525;
+}
+
+.title {
+    color: cyan;
+    font-size: 40px;
+}
+.text {
+    color: rgb(133, 201, 233);
+}
+
+.link {
+    color: inherit; /* palabra para forzar la herencia */
+} 
+
+.list{
+    color: indianred;
+}
+
+.list-item-extra {
+    color: initial; /* para deseradar la propiedad*/
+}
