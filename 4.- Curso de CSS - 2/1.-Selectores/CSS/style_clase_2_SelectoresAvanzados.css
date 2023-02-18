@@ -1,0 +1,25 @@
+
+/* Selectores avanzados */
+
+/* div p{
+    color: rgb(151, 73, 230);
+} */
+
+/* Selectores de hijos */
+
+div > p{
+    color: rgb(151, 73, 230);
+}
+
+/* Selector de atributos */
+
+input[type = "text"] {
+    color: rgb(136, 201, 40);
+    font-size: 17px;
+}
+
+/* Herencia */
+
+body {
+    background-color:#343232;
+}

@@ -1,0 +1,43 @@
+/* Selector universal */
+
+/* * {
+    color: red;
+} */
+
+/* selectores de etiqueta */
+
+/* h1,
+h2,
+h3,
+h6 {
+    color: aqua;
+}
+
+p {
+    color: rgb(155, 216, 216);
+} */
+
+/* selector desendiente */
+
+ div p {
+    color: greenyellow;
+} 
+
+/* Selectores de clase */
+
+.rojo {
+    color: red;
+}
+
+.tamañoPX {
+    font-size: 25px; /* para cambiar el tamaño de la letra */
+}
+
+.verde {
+    color: rgb(99, 160, 8);
+    font-size: 45px;
+}
+/* gerarquia id > class > etiquetas */
+#azul {
+    color: brown;
+}

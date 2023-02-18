@@ -1,0 +1,32 @@
+a {
+    color: rgb(136, 238, 229);
+    font-size: 20px;
+    /* quittar la raya del link */
+    text-decoration: none;
+}
+/* pseudoclase */
+
+/* hover ocurre algo al pasar el mouse por encima */
+a:hover {
+    background: tomato;
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 35%;
+}
+
+.circle-1 {
+    background: rgb(235, 235, 84);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 0;
+}
+
+.circle-1:hover {
+    background: aquamarine;
+    width: 400px;
+    height: 200px;
+    border-radius: 15%;
+    text-align: center;
+    font-size: 20px;
+}

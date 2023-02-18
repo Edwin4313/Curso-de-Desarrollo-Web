@@ -1,0 +1,18 @@
+/* insetar fondo */
+
+body {
+    background: url(/assets/Image/dark-honeycomb.png);
+}
+
+.title {
+    color: aliceblue;
+    font-size: 25px;
+    margin: 0;
+}
+
+.cuadro-1 {
+    background: rgb(219, 219, 122);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

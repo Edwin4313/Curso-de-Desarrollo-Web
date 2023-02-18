@@ -1,0 +1,12 @@
+/* Uso de url */
+
+/* body {
+     background: url("/assets/Image/razas-gatos-portada-848x477x80xX.jpg") no-repeat fixed center center;
+    background-size: 500px; 
+} */
+
+.fondo {
+    width: 600px;
+    height: 600px;
+    background: url(/assets/Image/razas-gatos-portada-848x477x80xX.jpg) #000 no-repeat center center;
+}
