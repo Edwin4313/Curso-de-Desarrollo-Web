@@ -1,0 +1,17 @@
+
+* { 
+    margin: 0;
+}
+.caja {
+    width: 300px;
+    /* height: 300px; */
+    background: #000000;
+    /* margen espacio de caja */
+    border: 5px solid #d44d4d;
+    padding: 40px 11px;
+    margin: 20px;
+}
+
+.caja p {
+    color: aliceblue;
+}

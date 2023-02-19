@@ -1,0 +1,16 @@
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: normal;
+    color: blueviolet;
+    text-align: center;
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+}
+
+p {
+    letter-spacing: 3px;
+    line-height: 30px;
+}
