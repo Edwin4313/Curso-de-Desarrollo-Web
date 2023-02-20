@@ -1,8 +1,19 @@
-
-body {
-    background: url(/assets/Image/dark-honeycomb.png);
+* {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.title {
-    color: aliceblue;
+h1, p, div {
+    background: #848484;
+    height: 50px;
+    padding: 10px
+}
+
+a {
+    color: #fff;
+    background: #000;
+    /* Para cambiar la etiqueta bloque (por defecto inline) */
+    display: inline-block;
+    padding: 10px;
+    height: 50px;
 }
