@@ -1,5 +1,20 @@
 
 .text{
-    /*             x  | y  | opacidad| color */
-    text-shadow: 10px 10px 10px #000;
+    /*            x  | y  | opacidad| color */
+    /* text-shadow: 10px 10px 10px #000; */
+    color: #fff;
+    text-shadow: 2px 0px 10px rgb(64, 165, 224);
+}
+
+.text:hover {
+    text-shadow: 2px 0px 10px rgb(152, 64, 224);
+    font-size: 35px;
+}
+
+.box {
+    background: #dd963a;
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 0 10px #000;
+    border-radius: 20px;
 }
