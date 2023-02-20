@@ -1,0 +1,36 @@
+/* 
+div{
+    background: #ccc;
+} */
+
+div {
+    /* para eliminar el contenedor pero no su espacio */
+    /* visibility: hidden; */
+    /* --------------------- */
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 162, 255);
+    color: #000;
+    overflow: auto;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.uno {
+    background: #000;
+    z-index: 1;
+}
+
+.dos {
+    background: rgb(216, 73, 29);
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
