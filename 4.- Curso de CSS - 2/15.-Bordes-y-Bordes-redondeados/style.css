@@ -1,0 +1,28 @@
+
+div {
+    width: 200px;
+    height: 200px;
+    background: #3dccdf;
+    display: inline-block;
+    margin: 15px;
+}
+
+.box-1 {
+    border: 5px solid #000;
+    border-radius: 20px;
+}
+
+.box-2 {
+    border: 5px dotted #000;
+    border-radius: 0px 10px 30px 60px;
+}
+
+.box-3 {
+    border: 5px dashed #000;
+    border-radius: 0px 20px 0 20px;
+}
+
+.box-4 {
+    border: 5px double #000;
+    border-radius: 100%;
+}

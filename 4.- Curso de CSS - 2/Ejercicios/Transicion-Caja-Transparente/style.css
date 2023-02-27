@@ -1,0 +1,88 @@
+
+body {
+    background: url(/Ejercicios/Transicion-Caja-Transparente/frequency-wave-7776034_1920.jpg) no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.container {
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    transition: .4s all ease-in-out;
+}
+
+.container:hover {
+    width: 33rem;
+    height: 23rem;
+    transition: .25555s all ease-in-out;
+    background-color: rgba(255, 255, 255, .1);
+    cursor:context-menu;
+    border: 1px solid rgba(0, 255, 255, 0.699);
+}
+
+.title {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /* padding: 20px; */
+}
+
+div h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.position-l {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+div label {
+    font-size: 23px;
+    color: rgb(155, 192, 224);
+    line-height: -20px;
+}
+
+input {
+    background: rgba(255, 255, 255, .1);
+    font-size: 16px;
+    border-radius: 30px;
+    height: 30px;
+    color: aquamarine;
+    /* line-height: 10px; */
+    border: 2px solid rgba(153, 6, 153, 0.555);
+}
+
+.continue {
+    background: rgba(255, 255, 255, .15);
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    /* visibility: hidden; */
+}
+
+.continue:hover {
+    opacity: .8; 
+    width: 7rem;
+    color: aqua;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.position-l-2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}

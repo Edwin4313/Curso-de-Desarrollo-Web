@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p::first-letter{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* si tiene :: pseudo elemento y si : es pseudo clase */
+
+p::first-line{
+    background: #cf5c35;
+    line-height: 40px;
+}
+
+*::selection  {
+    background: #45dcf0;
+    color: #ffffff;
+}
+
+.box {
+    background: #45dcf0;
+    height: 150px;
+    width: 150px;
+}
+
+.box::before {
+    /* Contenido antes de la caja */
+    content: 'Contenido antes de la caja';
+    display: block;
+    background: #3a3a3a;
+    color: #fff;
+    position: relative;
+    left: 50px;
+}
+
+.box::after {
+    /* Contenido despues de la caja */
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #3a3a3a;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}

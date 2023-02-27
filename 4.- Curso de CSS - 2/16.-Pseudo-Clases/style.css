@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    background: rgb(118, 61, 165);
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    background: #009ddc;
+    padding: 25px 35px;
+}
+
+a:active {
+    /* al precionar y mantener precionado */
+    background: #000;
+}
+
+a:visited {
+    /* cambia el fondo cuando visites el enlace JAJA */
+    background: #ccc;
+}
+
+div {
+    width: 500px;
+}
+
+div p:hover {
+    background: #000;
+    color: aliceblue;
+}
+
+div p::first-line{
+    background-color: #009ddc;
+    color: #ccc
+}
+
+div p::first-letter{
+    color: red;
+    font-size: 20px;
+}
+
+/* seleccionar una etiqueta sin clases */
+/* Sleccionando el parrafo 2 sin una clase */
+div p:nth-child(2){
+    background: #009ddc;
+    color: aliceblue;
+    padding: 10px;
+}
