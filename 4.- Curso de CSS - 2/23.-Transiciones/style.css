@@ -1,0 +1,23 @@
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #21295c;
+    transition: all .7s ease;
+    /* transition-delay: 2s; */
+}
+
+.caja:hover {
+    background: #9eb3c2;
+    /* width: 400px; */
+    transform: rotate(180deg);
+    width: 400px;
+}
+
+/* velocidad de curva 
+    ease - inicio lento, despues rapido y termina lento
+    linear - misma velocidad inicio y final 
+    ease-in : inicio lento 
+    ease-outo: fin lento
+    ease-in-out : inicio y final lento
+*/
