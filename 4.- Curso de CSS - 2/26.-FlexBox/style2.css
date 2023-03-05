@@ -1,0 +1,147 @@
+
+* {
+    padding: 0;margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000 url("/4.- Curso de CSS - 2/assets/Image/dark-honeycomb.png");
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+header .menu a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    background: #fff;
+    padding: 20px;
+    width: 70%;
+
+}
+
+.main article .thumb {
+    margin-bottom: 20px;
+}
+
+.main article .thumb img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.main article h2 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.main article p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+/* barra lateral */
+
+aside {
+    width: 30%;
+    background: #537dca;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+aside .ad {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background: #4264A2;
+    padding: 50px 0;
+    /* margin: 20px; */
+}
+
+footer {
+    margin: 20px 0;
+    background: rgba(255, 255, 255, .2);
+    padding: 20px;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+footer .soccial a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+footer .soccial a:hover {
+    text-decoration: none;
+}
+
+/* Responsive */
+@media screen and (max-width:800px){
+    .main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    aside .ad {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    header {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    header .menu {
+        width: 100%;
+        background: rgba(255, 255, 255, .2);
+        text-align: center;
+        padding: 20px;
+    }
+
+    header .menu a {
+        margin: 0 20px;
+    }
+
+}

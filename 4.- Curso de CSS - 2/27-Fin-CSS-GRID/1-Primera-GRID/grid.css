@@ -1,0 +1,9 @@
+
+.container {
+    display: grid;
+    /* nueva propiedad  columanas tamaño px | 300px*/
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 300px 100px;
+    /* margen */
+    grid-gap: 20px;
+}

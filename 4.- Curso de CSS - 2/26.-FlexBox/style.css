@@ -1,0 +1,100 @@
+
+* {
+    padding: 0;
+    margin: 5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    height:500px;
+    background: #54546d;
+    /* habilitar flexbox  */
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    /* Centrar contenido verticalmente */
+    /* align-items: center; */
+    align-content: center;
+}
+
+.box {
+    /* width: 100px; */
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    background: rgb(243, 186, 80);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+/* .three {
+    order: 2;
+}
+
+.two {
+    order: 1;
+} */
+
+/* flex-grow  ------------------------------*/
+
+/* .two {
+    flex-grow: 1;
+} */
+/* ------------------------------------- */
+
+/* flex-shrink -------------------------- 
+
+/* .box 
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    background: rgb(243, 186, 80);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+/* 
+
+
+
+/* 
+
+
+
+================================
+Propiedades de los elemtos hijos
+================================
+
+- oreder:;
+
+- flex-grow:;
+Acepta un número que servira de proporciones para hacer crecer el elemto
+en relación a los otros
+
+Si todo los elementos tienen flex-grow 1 el espacio restante se distribuira 
+entre los elementos.
+
+- flex-shrink:;
+Define la habilidad de un elemento para hacer mas pequeño.
+
+Por defecto todos se pueden hacer mas pequeño que su ancho
+
+-flex-basis
+Nos permite espesificar el valor inicial que tendra un elemento.
+
+*/
+
